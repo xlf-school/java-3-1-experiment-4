@@ -1,7 +1,5 @@
 package com.xlf.school.experiment4;
 
-import com.xlf.school.experiment4.Cart;
-import com.xlf.school.experiment4.GoodsDao;
 import com.xlf.school.experiment4.bean.Goods;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

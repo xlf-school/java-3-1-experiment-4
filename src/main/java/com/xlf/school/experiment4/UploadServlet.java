@@ -1,4 +1,4 @@
-package com.xlf.school.experiment4.experiment4;
+package com.xlf.school.experiment4;
 
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -16,9 +16,14 @@ import java.util.List;
 
 
 /**
- * Servlet implementation class UploadServlet
+ * 上传文件 Servlet
+ * <p>
+ * 用于处理上传文件请求
+ *
+ * @version v1.0.0
+ * @since v1.0.0
+ * @author xiao_lfeng
  */
-
 @WebServlet("/UploadServlet")
 public class UploadServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
